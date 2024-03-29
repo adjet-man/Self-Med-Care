@@ -12,7 +12,6 @@ This is the landing page of the Self-Med Care web app.
 Users can enter their health condition into a search form.
 Upon submitting the form, users are directed to the Results page.
 - Results Page (results.html):
-
 This page displays the search results based on the user's input.
 It shows the condition searched for and the suggested medications and treatments.
 Users can view the recommendations and take necessary actions based on the provided information.
