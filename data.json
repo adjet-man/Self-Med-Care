@@ -1,0 +1,308 @@
+[
+    {
+        "id": 1,
+        "condition": "Insomnia",
+        "medication_and_care": [
+            "Prescription sleep medications (e.g., zolpidem, eszopiclone)",
+            "Cognitive-behavioral therapy for insomnia (CBT-I)"
+        ]
+    },
+    {
+        "id": 2,
+        "condition": "Hypertension (High Blood Pressure)",
+        "medication_and_care": [
+            "Prescription antihypertensive medications such as ACE inhibitors, beta-blockers, calcium channel blockers, or diuretics",
+            "Lifestyle modifications: regular exercise, balanced diet, stress management, and smoking cessation"
+        ]
+    },
+    {
+        "id": 3,
+        "condition": "Anxiety Attacks",
+        "medication_and_care": [
+            "Short-acting benzodiazepines (e.g., alprazolam, lorazepam)",
+            "SSRIs or SNRIs for long-term management of anxiety disorders"
+        ]
+    },
+    {
+        "id": 4,
+        "condition": "Muscle Strains and Sprains",
+        "medication_and_care": [
+            "Rest, ice, compression, and elevation (RICE)",
+            "Nonprescription pain relievers like ibuprofen or naproxen",
+            "Topical analgesic creams or gels containing menthol, camphor, or capsaicin"
+        ]
+    },
+    {
+        "id": 5,
+        "condition": "Food Poisoning",
+        "medication_and_care": [
+            "Oral rehydration solutions",
+            "Antiemetic medications (e.g., ondansetron, metoclopramide)",
+            "Antibiotics for bacterial food poisoning"
+        ]
+    },
+    {
+        "id": 6,
+        "condition": "Athlete's Foot",
+        "medication_and_care": [
+            "Antifungal creams or sprays containing clotrimazole, miconazole, or terbinafine",
+            "Over-the-counter antifungal powders or foot soaks"
+        ]
+    },
+    {
+        "id": 7,
+        "condition": "Conjunctivitis (Pink Eye)",
+        "medication_and_care": [
+            "Antibiotic eye drops or ointments (e.g., erythromycin, polymyxin B) for bacterial conjunctivitis",
+            "Antihistamine eye drops (e.g., ketotifen, olopatadine) for allergic conjunctivitis",
+            "Artificial tears"
+        ]
+    },
+    {
+        "id": 8,
+        "condition": "Dental Pain",
+        "medication_and_care": [
+            "Over-the-counter pain relievers such as ibuprofen or acetaminophen",
+            "Oral numbing gels containing benzocaine or lidocaine",
+            "Clove oil"
+        ]
+    },
+    {
+        "id": 9,
+        "condition": "Dehydration",
+        "medication_and_care": [
+            "Oral rehydration solutions (e.g., Pedialyte, Gatorade)",
+            "Drinking water and clear fluids such as broth, herbal tea, or electrolyte-rich beverages"
+        ]
+    },
+    {
+        "id": 10,
+        "condition": "Headache",
+        "medication_and_care": [
+            "Medications: Acetaminophen (Tylenol), Ibuprofen (Advil, Motrin), Aspirin, Naproxen (Aleve)"
+        ]
+    },
+    {
+        "id": 11,
+        "condition": "Stomach Ache",
+        "medication_and_care": [
+            "Antacids: Tums, Rolaids, Maalox",
+            "Over-the-counter (OTC) medications: Pepto-Bismol, Imodium, Gas-X",
+            "Herbal teas: Ginger tea, Peppermint tea, Chamomile tea"
+        ]
+    },
+    {
+        "id": 12,
+        "condition": "Malaria",
+        "medication_and_care": [
+            "Prescription medications: Chloroquine, Hydroxychloroquine, ACTs like Artemether-Lumefantrine (Coartem), Atovaquone-Proguanil (Malarone)",
+            "Prevention: Antimalarial drugs like Atovaquone-Proguanil (Malarone), Doxycycline, Chloroquine, Primaquine, and Mefloquine"
+        ]
+    },
+    {
+        "id": 13,
+        "condition": "Menstrual Cramps",
+        "medication_and_care": [
+            "Over-the-counter pain relievers: Ibuprofen (Advil, Motrin), Naproxen (Aleve), Aspirin",
+            "Birth control pills",
+            "Heat therapy: Heating pads, warm baths"
+        ]
+    },
+    {
+        "id": 14,
+        "condition": "Common Cold",
+        "medication_and_care": [
+            "Decongestants: Pseudoephedrine, Phenylephrine",
+            "Antihistamines: Loratadine (Claritin), Diphenhydramine (Benadryl), Cetirizine (Zyrtec)",
+            "Pain relievers and fever reducers: Acetaminophen (Tylenol), Ibuprofen (Advil, Motrin)",
+            "Cough suppressants: Dextromethorphan (Robitussin), Codeine",
+            "Nasal saline drops"
+        ]
+    },
+    {
+        "id": 15,
+        "condition": "Allergies",
+        "medication_and_care": [
+            "Antihistamines: Loratadine (Claritin), Cetirizine (Zyrtec), Fexofenadine (Allegra)",
+            "Nasal corticosteroids: Fluticasone (Flonase), Mometasone (Nasonex), Triamcinolone (Nasacort)",
+            "Decongestants: Pseudoephedrine (Sudafed), Phenylephrine"
+        ]
+    },
+    {
+        "id": 16,
+        "condition": "Anxiety",
+        "medication_and_care": [
+            "Antidepressants: SSRIs like Sertraline (Zoloft), Fluoxetine (Prozac), Escitalopram (Lexapro)",
+            "Benzodiazepines: Alprazolam (Xanax), Lorazepam (Ativan), Diazepam (Valium)",
+            "Buspirone (Buspar)"
+        ]
+    },
+    {
+        "id": 17,
+        "condition": "Depression",
+        "medication_and_care": [
+            "Antidepressants: SSRIs, SNRIs like Duloxetine (Cymbalta), Venlafaxine (Effexor XR), TCAs like Amitriptyline (Elavil)",
+            "Psychotherapy: Cognitive-behavioral therapy (CBT), Interpersonal therapy (IPT), Psychodynamic therapy"
+        ]
+    },
+    {
+        "id": 18,
+        "condition": "Diarrhea",
+        "medication_and_care": [
+            "Oral rehydration solutions (ORS): Pedialyte, Gatorade",
+            "Antidiarrheal medications: Loperamide (Imodium), Bismuth subsalicylate (Pepto-Bismol)",
+            "Probiotics: Lactobacillus acidophilus, Saccharomyces boulardii"
+        ]
+    },
+    {
+        "id": 19,
+        "condition": "Constipation",
+        "medication_and_care": [
+            "Fiber supplements: Psyllium husk (Metamucil), Methylcellulose (Citrucel), Wheat dextrin (Benefiber)",
+            "Osmotic laxatives: Polyethylene glycol (MiraLAX), Lactulose",
+            "Stimulant laxatives: Senna (Senokot), Bisacodyl (Dulcolax), Castor oil"
+        ]
+    },
+    {
+        "id": 20,
+        "condition": "Influenza (Flu)",
+        "medication_and_care": [
+            "Antiviral medications: Oseltamivir (Tamiflu), Zanamivir (Relenza), Peramivir (Rapivab)",
+            "Symptomatic relief: Acetaminophen (Tylenol), Ibuprofen (Advil, Motrin), Decongestants, Cough suppressants"
+        ]
+    },
+    {
+        "id": 21,
+        "condition": "Urinary Tract Infection (UTI)",
+        "medication_and_care": [
+            "Antibiotics: Nitrofurantoin (Macrobid), Trimethoprim/sulfamethoxazole (Bactrim), Ciprofloxacin (Cipro)",
+            "Analgesics: Phenazopyridine (Pyridium), Ibuprofen (Advil, Motrin)"
+        ]
+    },
+    {
+        "id": 22,
+        "condition": "Cuts",
+        "medication_and_care": [
+            "Clean the cut with soap and water",
+            "Apply an antiseptic ointment (e.g., Neosporin)",
+            "Cover with a sterile bandage or adhesive strip"
+        ]
+    },
+    {
+        "id": 23,
+        "condition": "Fever",
+        "medication_and_care": [
+            "Rest and stay hydrated",
+            "Take over-the-counter fever reducers like acetaminophen (Tylenol) or ibuprofen (Advil)",
+            "Apply a cool compress to the forehead or take a lukewarm bath"
+        ]
+    },
+    {
+        "id": 24,
+        "condition": "Eye Pain",
+        "medication_and_care": [
+            "Rinse eyes with cool water if caused by irritation",
+            "Use over-the-counter lubricating eye drops",
+            "Avoid rubbing the eyes and limit screen time"
+        ]
+    },
+    {
+        "id": 25,
+        "condition": "Body Pains",
+        "medication_and_care": [
+            "Rest affected area and avoid strenuous activity",
+            "Apply a heating pad or cold pack to alleviate pain",
+            "Take over-the-counter pain relievers like acetaminophen or ibuprofen"
+        ]
+    },
+    {
+        "id": 26,
+        "condition": "Muscle Injury",
+        "medication_and_care": [
+            "Rest the injured muscle",
+            "Apply ice to reduce inflammation",
+            "Compress the area with a bandage and elevate the limb if possible"
+        ]
+    },
+    {
+        "id": 27,
+        "condition": "Cough",
+        "medication_and_care": [
+            "Stay hydrated with water and warm liquids",
+            "Use cough drops or lozenges to soothe throat irritation",
+            "Take over-the-counter cough suppressants if needed"
+        ]
+    },
+    {
+        "id": 28,
+        "condition": "Sore Throat",
+        "medication_and_care": [
+            "Gargle with warm saltwater",
+            "Drink warm liquids like tea or broth",
+            "Use throat lozenges or sprays for temporary relief"
+        ]
+    },
+    {
+        "id": 29,
+        "condition": "Constipation",
+        "medication_and_care": [
+            "Osmotic laxatives (e.g., polyethylene glycol, lactulose)"
+        ]
+    },
+    {
+        "id": 30,
+        "condition": "Rashes and Skin Irritations",
+        "medication_and_care": [
+            "Topical corticosteroid creams (e.g., hydrocortisone)",
+            "Antihistamine medications (e.g., diphenhydramine)",
+            "Calamine lotion or oatmeal baths",
+            "Moisturizing creams or emollients"
+        ]
+    },
+    {
+        "id": 31,
+        "condition": "Ulcers (Peptic Ulcers)",
+        "medication_and_care": [
+            "Proton pump inhibitors (PPIs) such as omeprazole or esomeprazole",
+            "Antibiotics (e.g., amoxicillin, clarithromycin)",
+            "Antacids or H2-receptor antagonists (H2RAs)"
+        ]
+    },
+    {
+        "id": 32,
+        "condition": "Acne",
+        "medication_and_care": [
+            "Topical retinoids (e.g., tretinoin, adapalene)",
+            "Benzoyl peroxide or salicylic acid-based products",
+            "Oral antibiotics (e.g., doxycycline, minocycline)"
+        ]
+    },
+    {
+        "id": 33,
+        "condition": "Allergic Reactions",
+        "medication_and_care": [
+            "Oral antihistamines (e.g., cetirizine, loratadine)",
+            "Epinephrine auto-injectors (e.g., EpiPen)",
+            "Corticosteroids (e.g., prednisone)"
+        ]
+    },
+    {
+        "id": 34,
+        "condition": "Dermatitis (Eczema)",
+        "medication_and_care": [
+            "Topical corticosteroid creams or ointments",
+            "Moisturizers or emollients",
+            "Topical calcineurin inhibitors (e.g., tacrolimus, pimecrolimus)"
+        ]
+    },
+    {
+        "id": 35,
+        "condition": "Insect Bites and Stings",
+        "medication_and_care": [
+            "Topical hydrocortisone cream or calamine lotion",
+            "Oral antihistamines",
+            "Cold compresses or ice packs"
+        ]
+    }
+    
+]

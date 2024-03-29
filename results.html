@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Ridge Self Check</title>
+
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <!--owl slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+  <!-- nice select -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha256-mLBIhmBvigTFWPSCtvdu6a76T+3Xyt+K571hupeFLg4=" crossorigin="anonymous" />
+  <!-- datepicker -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css">
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="header_top">
+        <div class="container">
+          <div class="contact_nav">
+            <a href="">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <span>
+                Call : +233 123455678990
+              </span>
+            </a>
+            <a href="">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <span>
+                Email : ridge@hospital.com
+              </span>
+            </a>
+            <a href="">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <span>
+                Accra
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    
+    </header>
+    <!-- end header section -->
+
+  </div>
+
+
+  <!-- book section -->
+
+  <section class="book_section layout_padding">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <form>
+            <h4>
+              YOUR<span> TREATMENTS</span>
+            </h4>
+
+            <div class="alert alert-danger">Based on your the condition searched there might be multiple treatments. Please look through them to find your ideal treatment.</div>
+
+
+            <div id="searchResults"></div>
+
+            <script>
+              // Fetch and display search results from URL parameters
+              const urlParams = new URLSearchParams(window.location.search);
+              const searchInput = urlParams.get('condition');
+          
+              fetch(`http://127.0.0.1:5000/search?condition=${searchInput}`)
+                  .then(response => response.json())
+                  .then(data => {
+                      const searchResultsDiv = document.getElementById('searchResults');
+          
+                      if (data.length === 0) {
+                          searchResultsDiv.textContent = 'No results';
+                      } else {
+                          // Display search results
+                          data.forEach(entry => {
+                              // Create card
+                              const card = document.createElement('div');
+                              card.classList.add('card', 'mb-3'); // Add margin-bottom for spacing
+                              const cardBody = document.createElement('div');
+                              cardBody.classList.add('card-body');
+                              const header = document.createElement('h3');
+                              header.textContent = 'Condition and Medication/Treatment';
+                              const text = document.createElement('p');
+                              text.style.fontSize = '20px';
+                              text.innerHTML = `Condition: ${entry.condition}<br><br>Medication and Treatment: ${entry.medication_and_care}`;;
+                              cardBody.appendChild(header);
+                              cardBody.appendChild(text);
+                              card.appendChild(cardBody);
+                              searchResultsDiv.appendChild(card);
+                          });
+                      }
+                  })
+                  .catch(error => console.error('Error fetching data:', error));
+          </script>
+          
+            
+
+          
+          
+            <div class="btn-box">
+              <button class="btn"> <a href="index.html" style="color:white">BACK </a> </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- end book section -->
+
+
+
+
+
+  <!-- footer section -->
+  <footer class="footer_section">
+    <div class="container">
+      <p>
+        &copy; <span id="displayYear"></span> All Rights Reserved 
+        
+      </p>
+    </div>
+  </footer>
+  <!-- footer section -->
+
+  <!-- jQery -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.js"></script>
+  <!-- nice select -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js" integrity="sha256-Zr3vByTlMGQhvMfgkQ5BtWRSKBGa2QlspKYJnkjZTmo=" crossorigin="anonymous"></script>
+  <!-- owl slider -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <!-- datepicker -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
+  <!-- custom js -->
+  <script src="js/custom.js"></script>
+
+
+</body>
+
+</html>
